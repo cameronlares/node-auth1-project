@@ -4,7 +4,7 @@
   "description": "## Introduction",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index.js",
+    "server": "nodemon",
     "start": "node index.js"
   },
   "repository": {
@@ -20,9 +20,14 @@
   "homepage": "https://github.com/cameronlares/node-auth1-project#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "connect-session-knex": "^2.0.0",
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express-session": "^1.17.1",
     "helmet": "^4.1.1",
     "knex": "^0.21.6",
+    "nodemon": "^2.0.5",
     "sqlite3": "^5.0.0"
   }
 }
